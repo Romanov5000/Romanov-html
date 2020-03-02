@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    
+}
+body{ background-color: #dce0e0;;
+    background-image: url(./img/fon.png) ;
+}
+.bukvab{
+    color: #739ce6;
+}
+.bukvam{
+    color: darkblue;
+}
+.bukvaw{
+    color: #d62222;
+}
+.zagolovok{ margin-bottom: 120px; }
+.zapolnenie{
+    display: flex;
+    justify-content: space-between;
+}
+
+.x5{
+    width: 30%;
+    margin: 5px 30px;
+    text-align: center;
+    
+}
+.m5{
+    width: 30%;
+    text-align: center;
+}
+.m3{
+    width: 30%;
+    margin: 5px 30px;
+    text-align: center;
+}
+#logo {width: 7%;}
+img{
+    width: 100%;
+}
+
+.scale{
+    transition: 1s;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
