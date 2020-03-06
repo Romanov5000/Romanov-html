@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+p{
+    color: #c3c3c5;
+}
+    
+.section1{
+    margin-top: 100px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+ 
+
+}
+.section1 h2::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    position: absolute;
+    background-color: #ff8c2c;
+    left: calc(50% - 32px);
+    bottom: -15px;
+    
+}
+.section1 p{
+
+    text-align: center;
+    position: relative;
+    top: 28px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.section2 h3{
+    position: relative;
+    top: 25px; 
+}
+.section2 p{
+    position: relative;
+    top: 50px; 
+    margin-bottom: 200px;
+}
+.section3{
+    background-image: url(../img/fon.png) ;
+    text-align: center;
+    height: 320px;
+
+}
+.section3 h2::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    position: absolute;
+    background-color:#ffffff;
+    left: calc(50% - 32px);
+    bottom: -15px;
+}
+.section3 h2{
+    color: #ffffff;
+    position: relative;
+    top: 75px;
+    
+}
+.section3 p{
+    position: relative;
+    top: 105px;
+}
+.section3 img{
+    position: relative;
+    top: 135px;
+    
+}
+
+
+
+/* Вопросы:
+1. Как сделать структурированное появление данных, чтобы появлялись последовательно один ниже другого, а не все в начале блока?
+2. Почему первый заголовок получился несимметрично центральному блоку?
+3. Как прописать, чтобы картинка в нижней секции адаптировалась высотой под находящийся в ней контент, а не задавать ей высоту в ручную?
+4. Как я понял, у надписей есть свои небольшие отступы, но из-за них не получилось сделать так же, как на макете. Их нужно как-то обнулить или просто учитыать и отнимать от замеров в фотошопе?
+5. По итогу не сошелся нижний отступ к кнопке скачать, возможно ли, что шрифт, отличный от макетного, дал другой размер и из-за этого перекосилось немного? (такой же эффект у верхнего заголовка и lorem под ним)
+
+И исходя из вышеперечисленных вопросов появляется самый главный - как выглядит правильный код?? (а то у меня чистотой кода и не пахнет)
+
+Вопросов было больше, но гугл большинство закрыл)
+
+*/
